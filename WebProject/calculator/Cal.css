@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #373535;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #373535;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.input {
+  width: 100%;
+  font-size: 30px;
+  padding: 10px;
+  border: 2px solid #f3f1f1;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #f7f6f6;
+}
+
+button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid #f4f3f3;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.number {
+  background-color: #505050;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.number:hover {
+  background-color: #585a5e;
+}
+
+.operator {
+  background-color: #ff9500;
+  font-size: 20px;
+}
+
+.operator:hover {
+  background-color: #f9ac41;
+}
+
+.cls {
+  background-color: #fb0000;
+  font-size: 20px;
+}
+
+.cls:hover {
+  background-color: #f54444;
+}
+
+.total {
+  background-color: #4dee4d;
+  font-size: 20px;
+}
+
+.total:hover {
+  background-color: #5ef85e;
+}
